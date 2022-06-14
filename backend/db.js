@@ -3,7 +3,7 @@ const mongoURI = "mongodb+srv://Sanskar:Sanskar%40123@sanskar.eurcdyh.mongodb.ne
 
 const connectToMongo = ()=>{
     mongoose.connect(mongoURI, ()=>{
-        console.log("Connector to Mongo Succesfully")
+        console.log("Connected to Mongo Succesfully")
     })
 }
 
